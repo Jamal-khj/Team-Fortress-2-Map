@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9540"
-	"mapversion" "2"
+	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -11,7 +11,7 @@ visgroups
 }
 viewsettings
 {
-	"bSnapToGrid" "0"
+	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "64"
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "1"
 	"classname" "worldspawn"
-	"detailmaterial" "detail/detailsprites_2fort"
-	"detailvbsp" "detail_2fort.vbsp"
-	"maxpropscreenwidth" "-1"
 	"skyname" "sky_tf2_04"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail_2fort.vbsp"
+	"detailmaterial" "detail/detailsprites_2fort"
 	solid
 	{
 		"id" "2"
@@ -478,82 +478,6 @@ world
 		editor
 		{
 			"color" "0 183 248"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "65"
-		side
-		{
-			"id" "85"
-			"plane" "(-294 88 248) (-62 88 248) (-62 -140 248)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "86"
-			"plane" "(-294 -140 64) (-62 -140 64) (-62 88 64)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "87"
-			"plane" "(-294 88 248) (-294 -140 248) (-294 -140 64)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "88"
-			"plane" "(-62 88 64) (-62 -140 64) (-62 -140 248)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "89"
-			"plane" "(-62 88 248) (-294 88 248) (-294 88 64)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "90"
-			"plane" "(-62 -140 64) (-294 -140 64) (-294 -140 248)"
-			"material" "NATURE/BLENDGROUNDTOGRASS007"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 110 115"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
