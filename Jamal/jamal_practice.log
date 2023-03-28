@@ -1,0 +1,3198 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2325 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 4
+Reduced 2 texdatas to 2 (36 bytes to 36)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+16 faces
+22300 square feet [3211264.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 patches before subdivision
+2032 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 200824, max 225
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  40/65536         800/1310720  ( 0.1%) 
+vertexes                35/65536         420/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   16/65536         896/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  29/65536         928/2097152  ( 0.0%) 
+leaffaces               16/65536          32/131072   ( 0.0%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges               88/512000        352/2048000  ( 0.0%) 
+edges                   57/256000        228/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       53888/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]         398/393216   ( 0.1%) 
+LDR ambient table       29/65536         116/262144   ( 0.0%) 
+HDR ambient table       29/65536         116/262144   ( 0.0%) 
+LDR leaf ambient         4/65536         112/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2325/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 32
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2325 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 4
+Reduced 2 texdatas to 2 (36 bytes to 36)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+16 faces
+22300 square feet [3211264.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 patches before subdivision
+2032 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 200824, max 225
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  40/65536         800/1310720  ( 0.1%) 
+vertexes                35/65536         420/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   16/65536         896/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  29/65536         928/2097152  ( 0.0%) 
+leaffaces               16/65536          32/131072   ( 0.0%) 
+leafbrushes             16/65536          32/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges               88/512000        352/2048000  ( 0.0%) 
+edges                   57/256000        228/1024000  ( 0.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       53888/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]         398/393216   ( 0.1%) 
+LDR ambient table       29/65536         116/262144   ( 0.0%) 
+HDR ambient table       29/65536         116/262144   ( 0.0%) 
+LDR leaf ambient         4/65536         112/1835008  ( 0.0%) 
+HDR leaf ambient        29/65536         812/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2325/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 32
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2357 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 5
+Reduced 2 texdatas to 2 (36 bytes to 36)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  16 portalclusters
+  24 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 256
+Average clusters visible: 16
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+198 faces
+195242 square feet [28114944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+198 patches before subdivision
+16970 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2728670, max 447
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  48/65536         960/1310720  ( 0.1%) 
+vertexes               239/65536        2868/786432   ( 0.4%) 
+nodes                   78/65536        2496/2097152  ( 0.1%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  198/65536       11088/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  80/65536        2560/2097152  ( 0.1%) 
+leaffaces              198/65536         396/131072   ( 0.3%) 
+leafbrushes             48/65536          96/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              856/512000       3424/2048000  ( 0.2%) 
+edges                  441/256000       1764/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           120/65536         240/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      488032/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]         400/393216   ( 0.1%) 
+LDR ambient table       80/65536         320/262144   ( 0.1%) 
+HDR ambient table       80/65536         320/262144   ( 0.1%) 
+LDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+HDR leaf ambient        80/65536        2240/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2357/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 436
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2357 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 5
+Reduced 2 texdatas to 2 (36 bytes to 36)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  16 portalclusters
+  24 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 256
+Average clusters visible: 16
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+198 faces
+195242 square feet [28114944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+198 patches before subdivision
+16970 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2728670, max 447
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  48/65536         960/1310720  ( 0.1%) 
+vertexes               239/65536        2868/786432   ( 0.4%) 
+nodes                   78/65536        2496/2097152  ( 0.1%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  198/65536       11088/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  80/65536        2560/2097152  ( 0.1%) 
+leaffaces              198/65536         396/131072   ( 0.3%) 
+leafbrushes             48/65536          96/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              856/512000       3424/2048000  ( 0.2%) 
+edges                  441/256000       1764/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           120/65536         240/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      488032/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]         400/393216   ( 0.1%) 
+LDR ambient table       80/65536         320/262144   ( 0.1%) 
+HDR ambient table       80/65536         320/262144   ( 0.1%) 
+LDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+HDR leaf ambient        80/65536        2240/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2357/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 436
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2357 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 5
+Reduced 2 texdatas to 2 (36 bytes to 36)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  16 portalclusters
+  24 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 256
+Average clusters visible: 16
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+198 faces
+195242 square feet [28114944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+198 patches before subdivision
+16970 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2728670, max 447
+transfer lists:  20.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                  48/65536         960/1310720  ( 0.1%) 
+vertexes               239/65536        2868/786432   ( 0.4%) 
+nodes                   78/65536        2496/2097152  ( 0.1%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  198/65536       11088/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  80/65536        2560/2097152  ( 0.1%) 
+leaffaces              198/65536         396/131072   ( 0.3%) 
+leafbrushes             48/65536          96/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              856/512000       3424/2048000  ( 0.2%) 
+edges                  441/256000       1764/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           120/65536         240/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      488032/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]         400/393216   ( 0.1%) 
+LDR ambient table       80/65536         320/262144   ( 0.1%) 
+HDR ambient table       80/65536         320/262144   ( 0.1%) 
+LDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+HDR leaf ambient        80/65536        2240/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2357/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 436
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4531 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 28 texinfos to 20
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  35 portalclusters
+  71 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1111
+Average clusters visible: 31
+Building PAS...
+Average clusters audible: 35
+visdatasize:637  compressed from 560
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+255 faces
+201820 square feet [29062154.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+255 patches before subdivision
+18123 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2940507, max 461
+transfer lists:  22.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 12/8192          144/98304    ( 0.1%) 
+brushsides              72/65536         576/524288   ( 0.1%) 
+planes                  72/65536        1440/1310720  ( 0.1%) 
+vertexes               322/65536        3864/786432   ( 0.5%) 
+nodes                  119/65536        3808/2097152  ( 0.2%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  255/65536       14280/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               29/65536        1624/3670016  ( 0.0%) 
+leaves                 121/65536        3872/2097152  ( 0.2%) 
+leaffaces              283/65536         566/131072   ( 0.4%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1232/512000       4928/2048000  ( 0.2%) 
+edges                  649/256000       2596/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             15/32768         150/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           192/65536         384/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      578840/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         637/16777216 ( 0.0%) 
+entdata               [variable]         400/393216   ( 0.1%) 
+LDR ambient table      121/65536         484/262144   ( 0.2%) 
+HDR ambient table      121/65536         484/262144   ( 0.2%) 
+LDR leaf ambient        35/65536         980/1835008  ( 0.1%) 
+HDR leaf ambient       121/65536        3388/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        4531/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 606
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4499 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 20
+Reduced 3 texdatas to 3 (62 bytes to 62)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+ 741 portalclusters
+1446 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 546386
+Average clusters visible: 737
+Building PAS...
+Average clusters audible: 741
+visdatasize:143617  compressed from 142272
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+9 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+12686 faces
+10637518 square feet [1531802624.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12686 patches before subdivision
+842864 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1..Out of memory or address space.  Texture quality setting may be too high.
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6659 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 46 texinfos to 34
+Reduced 4 texdatas to 4 (87 bytes to 87)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  59 portalclusters
+ 135 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.06%)
+Total clusters visible: 3191
+Average clusters visible: 54
+Building PAS...
+Average clusters audible: 59
+visdatasize:1425  compressed from 944
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+303 faces
+210012 square feet [30241802.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+303 patches before subdivision
+20535 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3205995, max 461
+transfer lists:  24.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             108/65536         864/524288   ( 0.2%) 
+planes                  92/65536        1840/1310720  ( 0.1%) 
+vertexes               392/65536        4704/786432   ( 0.6%) 
+nodes                  158/65536        5056/2097152  ( 0.2%) 
+texinfos                34/12288        2448/884736   ( 0.3%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  303/65536       16968/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               52/65536        2912/3670016  ( 0.1%) 
+leaves                 160/65536        5120/2097152  ( 0.2%) 
+leaffaces              385/65536         770/131072   ( 0.6%) 
+leafbrushes             85/65536         170/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1568/512000       6272/2048000  ( 0.3%) 
+edges                  837/256000       3348/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           291/65536         582/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      603972/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1425/16777216 ( 0.0%) 
+entdata               [variable]         400/393216   ( 0.1%) 
+LDR ambient table      160/65536         640/262144   ( 0.2%) 
+HDR ambient table      160/65536         640/262144   ( 0.2%) 
+LDR leaf ambient        59/65536        1652/1835008  ( 0.1%) 
+HDR leaf ambient       160/65536        4480/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        6659/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 754
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16267 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 67 texinfos to 54
+Reduced 7 texdatas to 7 (158 bytes to 158)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  85 portalclusters
+ 207 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.22%)
+Total clusters visible: 6423
+Average clusters visible: 75
+Building PAS...
+Average clusters audible: 85
+visdatasize:2554  compressed from 2720
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+396 faces
+210395 square feet [30296908.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+396 patches before subdivision
+22800 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3811957, max 523
+transfer lists:  29.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               574/65536        6888/786432   ( 0.9%) 
+nodes                  200/65536        6400/2097152  ( 0.3%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  396/65536       22176/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              138/65536        7728/3670016  ( 0.2%) 
+leaves                 202/65536        6464/2097152  ( 0.3%) 
+leaffaces              511/65536        1022/131072   ( 0.8%) 
+leafbrushes            121/65536         242/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2346/512000       9384/2048000  ( 0.5%) 
+edges                 1257/256000       5028/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             26/32768         260/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           381/65536         762/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      616052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2554/16777216 ( 0.0%) 
+entdata               [variable]         401/393216   ( 0.1%) 
+LDR ambient table      202/65536         808/262144   ( 0.3%) 
+HDR ambient table      202/65536         808/262144   ( 0.3%) 
+LDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+HDR leaf ambient       202/65536        5656/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       16267/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1002
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16278 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 54
+Reduced 8 texdatas to 7 (223 bytes to 199)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 538, actual size 458
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  85 portalclusters
+ 207 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.22%)
+Total clusters visible: 6423
+Average clusters visible: 75
+Building PAS...
+Average clusters audible: 85
+visdatasize:2554  compressed from 2720
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+396 faces
+210395 square feet [30296908.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+396 patches before subdivision
+22800 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3811957, max 523
+transfer lists:  29.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               574/65536        6888/786432   ( 0.9%) 
+nodes                  200/65536        6400/2097152  ( 0.3%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  396/65536       22176/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              138/65536        7728/3670016  ( 0.2%) 
+leaves                 202/65536        6464/2097152  ( 0.3%) 
+leaffaces              511/65536        1022/131072   ( 0.8%) 
+leafbrushes            121/65536         242/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2346/512000       9384/2048000  ( 0.5%) 
+edges                 1257/256000       5028/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             26/32768         260/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           381/65536         762/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      616052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2554/16777216 ( 0.0%) 
+entdata               [variable]         401/393216   ( 0.1%) 
+LDR ambient table      202/65536         808/262144   ( 0.3%) 
+HDR ambient table      202/65536         808/262144   ( 0.3%) 
+LDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+HDR leaf ambient       202/65536        5656/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         458/0        ( 0.0%) 
+physics               [variable]       16278/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1002
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16278 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 54
+Reduced 8 texdatas to 7 (223 bytes to 199)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 538, actual size 458
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  85 portalclusters
+ 207 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.22%)
+Total clusters visible: 6423
+Average clusters visible: 75
+Building PAS...
+Average clusters audible: 85
+visdatasize:2554  compressed from 2720
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+396 faces
+210395 square feet [30296908.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+396 patches before subdivision
+22800 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3811957, max 523
+transfer lists:  29.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 47/8192          564/98304    ( 0.6%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               574/65536        6888/786432   ( 0.9%) 
+nodes                  200/65536        6400/2097152  ( 0.3%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  396/65536       22176/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              138/65536        7728/3670016  ( 0.2%) 
+leaves                 202/65536        6464/2097152  ( 0.3%) 
+leaffaces              511/65536        1022/131072   ( 0.8%) 
+leafbrushes            121/65536         242/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2346/512000       9384/2048000  ( 0.5%) 
+edges                 1257/256000       5028/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             26/32768         260/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           381/65536         762/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      616052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2554/16777216 ( 0.0%) 
+entdata               [variable]         401/393216   ( 0.1%) 
+LDR ambient table      202/65536         808/262144   ( 0.3%) 
+HDR ambient table      202/65536         808/262144   ( 0.3%) 
+LDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+HDR leaf ambient       202/65536        5656/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         458/0        ( 0.0%) 
+physics               [variable]       16278/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1002
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17547 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 54
+Reduced 9 texdatas to 8 (241 bytes to 217)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+339 faces
+210395 square feet [30296906.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+339 patches before subdivision
+15573 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1138607, max 347
+transfer lists:   8.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46171, 51057, 73581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4814, 5897, 8079)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(839, 981, 1145)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 51/8192          612/98304    ( 0.6%) 
+brushsides             306/65536        2448/524288   ( 0.5%) 
+planes                 144/65536        2880/1310720  ( 0.2%) 
+vertexes               515/65536        6180/786432   ( 0.8%) 
+nodes                  192/65536        6144/2097152  ( 0.3%) 
+texinfos                54/12288        3888/884736   ( 0.4%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  339/65536       18984/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              142/65536        7952/3670016  ( 0.2%) 
+leaves                 194/65536        6208/2097152  ( 0.3%) 
+leaffaces              416/65536         832/131072   ( 0.6%) 
+leafbrushes            134/65536         268/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1149/256000       4596/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      377060/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]         689/393216   ( 0.2%) 
+LDR ambient table      194/65536         776/262144   ( 0.3%) 
+HDR ambient table      194/65536         776/262144   ( 0.3%) 
+LDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+HDR leaf ambient       194/65536        5432/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       17547/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 876
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18652 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 85 texinfos to 60
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+351 faces
+212692 square feet [30627658.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+351 patches before subdivision
+15669 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1106161, max 343
+transfer lists:   8.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45982, 50825, 73128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4720, 5801, 7959)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(826, 970, 1135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(156, 190, 207)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/65536        2544/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               531/65536        6372/786432   ( 0.8%) 
+nodes                  204/65536        6528/2097152  ( 0.3%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  351/65536       19656/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              154/65536        8624/3670016  ( 0.2%) 
+leaves                 208/65536        6656/2097152  ( 0.3%) 
+leaffaces              428/65536         856/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2218/512000       8872/2048000  ( 0.4%) 
+edges                 1197/256000       4788/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      382236/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2010/393216   ( 0.5%) 
+LDR ambient table      208/65536         832/262144   ( 0.3%) 
+HDR ambient table      208/65536         832/262144   ( 0.3%) 
+LDR leaf ambient      1203/65536       33684/1835008  ( 1.8%) 
+HDR leaf ambient       208/65536        5824/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/216      ( 0.5%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       18652/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 900
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47798, 52707, 75532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2692/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47798, 52708, 75532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2696/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47797, 52706, 75531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2696/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47798, 52707, 75532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2690/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47798, 52707, 75532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2690/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47797, 52707, 75531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2689/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19759 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+215927 square feet [31093578.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157024, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47797, 52707, 75532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4856, 5941, 8132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 44, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            138/65536         276/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      387412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        2685/393216   ( 0.7%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient      1274/65536       35672/1835008  ( 1.9%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19759/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18653 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 85 texinfos to 60
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+351 faces
+213161 square feet [30695242.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+351 patches before subdivision
+15669 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1147729, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46962, 51859, 74531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4838, 5922, 8109)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(842, 984, 1147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/65536        2544/524288   ( 0.5%) 
+planes                 180/65536        3600/1310720  ( 0.3%) 
+vertexes               531/65536        6372/786432   ( 0.8%) 
+nodes                  204/65536        6528/2097152  ( 0.3%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  351/65536       19656/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              154/65536        8624/3670016  ( 0.2%) 
+leaves                 208/65536        6656/2097152  ( 0.3%) 
+leaffaces              428/65536         856/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2218/512000       8872/2048000  ( 0.4%) 
+edges                 1197/256000       4788/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      382236/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        1997/393216   ( 0.5%) 
+LDR ambient table      208/65536         832/262144   ( 0.3%) 
+HDR ambient table      208/65536         832/262144   ( 0.3%) 
+LDR leaf ambient      1180/65536       33040/1835008  ( 1.8%) 
+HDR leaf ambient       208/65536        5824/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       18653/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 900
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18653 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 85 texinfos to 60
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+351 faces
+213161 square feet [30695242.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+351 patches before subdivision
+15669 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1147729, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46903, 51814, 74498)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4826, 5914, 8105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(839, 982, 1146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 191, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/65536        2544/524288   ( 0.5%) 
+planes                 180/65536        3600/1310720  ( 0.3%) 
+vertexes               531/65536        6372/786432   ( 0.8%) 
+nodes                  204/65536        6528/2097152  ( 0.3%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  351/65536       19656/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              154/65536        8624/3670016  ( 0.2%) 
+leaves                 208/65536        6656/2097152  ( 0.3%) 
+leaffaces              428/65536         856/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2218/512000       8872/2048000  ( 0.4%) 
+edges                 1197/256000       4788/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      382236/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        1997/393216   ( 0.5%) 
+LDR ambient table      208/65536         832/262144   ( 0.3%) 
+HDR ambient table      208/65536         832/262144   ( 0.3%) 
+LDR leaf ambient      1180/65536       33040/1835008  ( 1.8%) 
+HDR leaf ambient       208/65536        5824/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       18653/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 900
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18749 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 87 texinfos to 60
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 14 visible clusters (0.25%)
+Total clusters visible: 5572
+Average clusters visible: 67
+Building PAS...
+Average clusters audible: 82
+visdatasize:2470  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+351 faces
+212734 square feet [30633802.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+351 patches before subdivision
+15669 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1147898, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46883, 51795, 74480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4824, 5912, 8104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(839, 982, 1146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 191, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/65536        2544/524288   ( 0.5%) 
+planes                 196/65536        3920/1310720  ( 0.3%) 
+vertexes               531/65536        6372/786432   ( 0.8%) 
+nodes                  201/65536        6432/2097152  ( 0.3%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  351/65536       19656/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              154/65536        8624/3670016  ( 0.2%) 
+leaves                 205/65536        6560/2097152  ( 0.3%) 
+leaffaces              428/65536         856/131072   ( 0.7%) 
+leafbrushes            142/65536         284/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2218/512000       8872/2048000  ( 0.4%) 
+edges                 1197/256000       4788/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      381180/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2470/16777216 ( 0.0%) 
+entdata               [variable]        1974/393216   ( 0.5%) 
+LDR ambient table      205/65536         820/262144   ( 0.3%) 
+HDR ambient table      205/65536         820/262144   ( 0.3%) 
+LDR leaf ambient      1190/65536       33320/1835008  ( 1.8%) 
+HDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       18749/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 900
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18748 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 87 texinfos to 60
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 36 visible clusters (0.57%)
+Total clusters visible: 6336
+Average clusters visible: 77
+Building PAS...
+Average clusters audible: 82
+visdatasize:2466  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+351 faces
+212308 square feet [30572362.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+351 patches before subdivision
+15669 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1147917, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46882, 51794, 74480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4825, 5913, 8104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(839, 982, 1146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 191, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             318/65536        2544/524288   ( 0.5%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               531/65536        6372/786432   ( 0.8%) 
+nodes                  201/65536        6432/2097152  ( 0.3%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  351/65536       19656/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              154/65536        8624/3670016  ( 0.2%) 
+leaves                 205/65536        6560/2097152  ( 0.3%) 
+leaffaces              428/65536         856/131072   ( 0.7%) 
+leafbrushes            142/65536         284/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2218/512000       8872/2048000  ( 0.4%) 
+edges                 1197/256000       4788/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      381180/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2466/16777216 ( 0.0%) 
+entdata               [variable]        1996/393216   ( 0.5%) 
+LDR ambient table      205/65536         820/262144   ( 0.3%) 
+HDR ambient table      205/65536         820/262144   ( 0.3%) 
+LDR leaf ambient      1189/65536       33292/1835008  ( 1.8%) 
+HDR leaf ambient       205/65536        5740/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       18748/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 900
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.vmf
+Patching WVT material: maps/jamal_practice/egypt/sky_sand_waves_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (19853 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 93 texinfos to 64
+Reduced 11 texdatas to 10 (279 bytes to 255)
+Writing C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Desktop\SAE\23T1\GDS212\Designers - Team Fortress 2 Project\jamal_practice.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106439, actual size 106091
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+reading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.prt
+  82 portalclusters
+ 212 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 36 visible clusters (0.57%)
+Total clusters visible: 6336
+Average clusters visible: 77
+Building PAS...
+Average clusters audible: 82
+visdatasize:2466  compressed from 2624
+writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+363 faces
+214220 square feet [30847818.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+363 patches before subdivision
+15765 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1157235, max 347
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47503, 52432, 75276)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4860, 5948, 8146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(844, 986, 1150)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(158, 192, 208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(38, 43, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 11, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 55/8192          660/98304    ( 0.7%) 
+brushsides             330/65536        2640/524288   ( 0.5%) 
+planes                 198/65536        3960/1310720  ( 0.3%) 
+vertexes               547/65536        6564/786432   ( 0.8%) 
+nodes                  213/65536        6816/2097152  ( 0.3%) 
+texinfos                64/12288        4608/884736   ( 0.5%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  363/65536       20328/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              166/65536        9296/3670016  ( 0.3%) 
+leaves                 219/65536        7008/2097152  ( 0.3%) 
+leaffaces              440/65536         880/131072   ( 0.7%) 
+leafbrushes            144/65536         288/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2314/512000       9256/2048000  ( 0.5%) 
+edges                 1245/256000       4980/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           201/65536         402/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      385300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2466/16777216 ( 0.0%) 
+entdata               [variable]        2684/393216   ( 0.7%) 
+LDR ambient table      219/65536         876/262144   ( 0.3%) 
+HDR ambient table      219/65536         876/262144   ( 0.3%) 
+LDR leaf ambient      1295/65536       36260/1835008  ( 2.0%) 
+HDR leaf ambient       219/65536        6132/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106091/0        ( 0.0%) 
+physics               [variable]       19853/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 924
+Writing c:\users\jamal\desktop\sae\23t1\gds212\designers - team fortress 2 project\jamal_practice.bsp
+1 second elapsed
