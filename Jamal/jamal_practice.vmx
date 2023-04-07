@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9540"
-	"mapversion" "57"
+	"mapversion" "61"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "57"
+	"mapversion" "61"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -2840,7 +2840,7 @@ entity
 	"Negated" "0"
 	"targetname" "filter_blu"
 	"TeamNum" "3"
-	"origin" "-368 848 9"
+	"origin" "320 832 9"
 	editor
 	{
 		"color" "220 30 220"
@@ -4048,7 +4048,7 @@ entity
 {
 	"id" "4976"
 	"classname" "prop_physics_override"
-	"angles" "0 180.5 0"
+	"angles" "0 180 0"
 	"damagetoenablemotion" "0"
 	"Damagetype" "0"
 	"ExplodeDamage" "0"
@@ -4069,7 +4069,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "6"
-	"targetname" "cart"
+	"targetname" "bomb_model"
 	"origin" "-864 -128 32"
 	editor
 	{
@@ -4585,10 +4585,11 @@ entity
 	"custom_position_x" "-1"
 	"custom_position_y" "-1"
 	"partial_cap_points_rate" "0.1"
-	"play_all_rounds" "0"
+	"play_all_rounds" "1"
 	"score_style" "1"
 	"StartDisabled" "0"
 	"switch_teams" "1"
+	"targetname" "cp_master"
 	"team_base_icon_2" "sprites/obj_icons/icon_base_red"
 	"team_base_icon_3" "sprites/obj_icons/icon_base_blu"
 	"origin" "-896 -208.365 176"
@@ -4639,7 +4640,7 @@ entity
 	"classname" "team_round_timer"
 	"auto_countdown" "1"
 	"max_length" "600"
-	"reset_time" "0"
+	"reset_time" "1"
 	"setup_length" "70"
 	"show_in_hud" "1"
 	"show_time_remaining" "1"
@@ -4649,8 +4650,7 @@ entity
 	"timer_length" "270"
 	connections
 	{
-		"OnFinished" "setupgateOpen0-1"
-		"OnSetupFinished" "0-1"
+		"OnFinished" "round_winRoundWin0-1"
 	}
 	"origin" "-832 -208.365 176"
 	editor
@@ -4667,7 +4667,7 @@ entity
 	"classname" "game_round_win"
 	"force_map_reset" "1"
 	"switch_teams" "1"
-	"targetname" "time_end"
+	"targetname" "round_win"
 	"TeamNum" "2"
 	connections
 	{
@@ -4688,7 +4688,7 @@ entity
 	"classname" "filter_activator_class"
 	"filterclass" "player"
 	"Negated" "1"
-	"targetname" "player_filter_class"
+	"targetname" "filter_players"
 	"origin" "-832 -208.365 208"
 	editor
 	{
@@ -4740,8 +4740,8 @@ entity
 		"OnMapSpawn" "gamerulesSetRedTeamGoalString#Goldrush_red_final_goal0-1"
 		"OnMapSpawn" "gamerulesSetRedTeamRole10-1"
 		"OnMapSpawn" "gamerulesSetBlueTeamRole20-1"
-		"OnMapSpawn" "gamerulesSetBlueTeamRespawnWaveTime30-1"
-		"OnMapSpawn" "gamerulesSetRedTeamRespawnWaveTime90-1"
+		"OnMapSpawn" "gamerulesSetBlueTeamRespawnWaveTime40-1"
+		"OnMapSpawn" "gamerulesSetRedTeamRespawnWaveTime80-1"
 	}
 	"origin" "-864 -208.365 208"
 	editor
@@ -4756,7 +4756,7 @@ entity
 {
 	"id" "5686"
 	"classname" "filter_activator_name"
-	"filtername" "cart"
+	"filtername" "bomb_model"
 	"Negated" "0"
 	"spawnflags" "1"
 	"targetname" "filter_cart"
@@ -4971,6 +4971,40 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "7298"
+	"classname" "filter_activator_tfteam"
+	"controlpoint" "cp_a_2"
+	"Negated" "0"
+	"targetname" "filter_a_2"
+	"TeamNum" "0"
+	"origin" "-928 -208.365 208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
+entity
+{
+	"id" "7309"
+	"classname" "filter_activator_tfteam"
+	"controlpoint" "cp_b_2"
+	"Negated" "0"
+	"targetname" "filter_b_2"
+	"TeamNum" "0"
+	"origin" "-928 -208.365 240"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
 	}
 }
 cameras
