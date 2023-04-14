@@ -2460,3 +2460,767 @@ Level flags = 0
 Total triangle count: 4785
 Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
 4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.vmf
+Requesting texture value from var "$basetexture" which is not a texture value (material: skybox/sky_trainyard_01ft)
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_grass_blend_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 56 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (80729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 402 texinfos to 267
+Reduced 24 texdatas to 23 (551 bytes to 525)
+Writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106392, actual size 106044
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.prt
+ 371 portalclusters
+ 943 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 640 visible clusters (0.91%)
+Total clusters visible: 70233
+Average clusters visible: 189
+Building PAS...
+Average clusters audible: 349
+visdatasize:36458  compressed from 35616
+writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+2815 faces
+3 degenerate faces
+2316151 square feet [333525824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2812 patches before subdivision
+158632 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18889288, max 809
+transfer lists: 144.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(292822, 332816, 614251)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(96581, 92050, 148724)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(35202, 29173, 42864)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13308, 9504, 12582)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5452, 3318, 3967)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2318, 1209, 1271)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1063, 454, 418)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(508, 184, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(261, 74, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(140, 34, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(79, 15, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(46, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(27, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(17, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(10, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0317 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes                203/8192         2436/98304    ( 2.5%) 
+brushsides            1303/65536       10424/524288   ( 2.0%) 
+planes                 900/65536       18000/1310720  ( 1.4%) 
+vertexes              3894/65536       46728/786432   ( 5.9%) 
+nodes                 1079/65536       34528/2097152  ( 1.6%) 
+texinfos               267/12288       19224/884736   ( 2.2%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2815/65536      157640/3670016  ( 4.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              779/65536       43624/3670016  ( 1.2%) 
+leaves                1116/65536       35712/2097152  ( 1.7%) 
+leaffaces             3303/65536        6606/131072   ( 5.0%) 
+leafbrushes            639/65536        1278/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15920/512000      63680/2048000  ( 3.1%) 
+edges                 8679/256000      34716/1024000  ( 3.4%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            238/32768        2380/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3396/65536        6792/131072   ( 5.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4571380/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36458/16777216 ( 0.2%) 
+entdata               [variable]       38172/393216   ( 9.7%) 
+LDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+HDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+LDR leaf ambient      6251/65536      175028/1835008  ( 9.5%) 
+HDR leaf ambient      1116/65536       31248/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4308     ( 0.0%) 
+pakfile               [variable]      106044/0        ( 0.0%) 
+physics               [variable]       80729/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7174
+Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_grass_blend_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 56 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (80729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 264
+Reduced 23 texdatas to 22 (525 bytes to 499)
+Writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106392, actual size 106044
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.prt
+ 371 portalclusters
+ 943 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 640 visible clusters (0.91%)
+Total clusters visible: 70233
+Average clusters visible: 189
+Building PAS...
+Average clusters audible: 349
+visdatasize:36458  compressed from 35616
+writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+2864 faces
+3 degenerate faces
+2316151 square feet [333525824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2861 patches before subdivision
+163331 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19911527, max 868
+transfer lists: 151.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(321698, 368444, 689977)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(108823, 103894, 169149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(40292, 33077, 48824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15444, 10818, 14431)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6343, 3758, 4552)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2699, 1361, 1462)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1227, 507, 481)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(581, 203, 161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(294, 81, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(155, 36, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(86, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(50, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(29, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0346 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes                203/8192         2436/98304    ( 2.5%) 
+brushsides            1303/65536       10424/524288   ( 2.0%) 
+planes                 900/65536       18000/1310720  ( 1.4%) 
+vertexes              3955/65536       47460/786432   ( 6.0%) 
+nodes                 1079/65536       34528/2097152  ( 1.6%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 22/2048          704/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2864/65536      160384/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              779/65536       43624/3670016  ( 1.2%) 
+leaves                1116/65536       35712/2097152  ( 1.7%) 
+leaffaces             3353/65536        6706/131072   ( 5.1%) 
+leafbrushes            639/65536        1278/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16132/512000      64528/2048000  ( 3.2%) 
+edges                 8785/256000      35140/1024000  ( 3.4%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3468/65536        6936/131072   ( 5.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4722776/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36458/16777216 ( 0.2%) 
+entdata               [variable]       38765/393216   ( 9.9%) 
+LDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+HDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+LDR leaf ambient      6152/65536      172256/1835008  ( 9.4%) 
+HDR leaf ambient      1116/65536       31248/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4530     ( 0.0%) 
+pakfile               [variable]      106044/0        ( 0.0%) 
+physics               [variable]       80729/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7288
+Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_grass_blend_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 56 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (80729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 264
+Reduced 23 texdatas to 22 (525 bytes to 499)
+Writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106392, actual size 106044
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.prt
+ 371 portalclusters
+ 943 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 640 visible clusters (0.91%)
+Total clusters visible: 70233
+Average clusters visible: 189
+Building PAS...
+Average clusters audible: 349
+visdatasize:36458  compressed from 35616
+writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+2864 faces
+3 degenerate faces
+2316151 square feet [333525824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2861 patches before subdivision
+163331 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19911527, max 868
+transfer lists: 151.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(321686, 368432, 689968)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(108814, 103884, 169138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(40287, 33073, 48822)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15439, 10814, 14429)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6341, 3757, 4551)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2697, 1360, 1462)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1226, 507, 481)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(581, 203, 161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(293, 81, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(155, 36, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(86, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(49, 8, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(29, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(18, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0433 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes                203/8192         2436/98304    ( 2.5%) 
+brushsides            1303/65536       10424/524288   ( 2.0%) 
+planes                 900/65536       18000/1310720  ( 1.4%) 
+vertexes              3955/65536       47460/786432   ( 6.0%) 
+nodes                 1079/65536       34528/2097152  ( 1.6%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 22/2048          704/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2864/65536      160384/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              779/65536       43624/3670016  ( 1.2%) 
+leaves                1116/65536       35712/2097152  ( 1.7%) 
+leaffaces             3353/65536        6706/131072   ( 5.1%) 
+leafbrushes            639/65536        1278/131072   ( 1.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16132/512000      64528/2048000  ( 3.2%) 
+edges                 8785/256000      35140/1024000  ( 3.4%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3468/65536        6936/131072   ( 5.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4722776/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36458/16777216 ( 0.2%) 
+entdata               [variable]       38805/393216   ( 9.9%) 
+LDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+HDR ambient table     1116/65536        4464/262144   ( 1.7%) 
+LDR leaf ambient      6152/65536      172256/1835008  ( 9.4%) 
+HDR leaf ambient      1116/65536       31248/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4530     ( 0.0%) 
+pakfile               [variable]      106044/0        ( 0.0%) 
+physics               [variable]       80729/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7288
+Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_grass_blend_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 56 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (79353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 264
+Reduced 23 texdatas to 22 (525 bytes to 499)
+Writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106392, actual size 106044
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.prt
+ 345 portalclusters
+ 915 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 516 visible clusters (0.77%)
+Total clusters visible: 66763
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 325
+visdatasize:32152  compressed from 33120
+writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+2631 faces
+3 degenerate faces
+2171198 square feet [312652608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2628 patches before subdivision
+148238 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17770642, max 879
+transfer lists: 135.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(338943, 364953, 623118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(94093, 82471, 118719)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(30728, 24051, 32187)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10671, 7545, 9314)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4107, 2613, 2988)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1685, 970, 980)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(743, 367, 328)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(355, 155, 113)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(177, 63, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(97, 30, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(53, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(32, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(19, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0277 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes                199/8192         2388/98304    ( 2.4%) 
+brushsides            1279/65536       10232/524288   ( 2.0%) 
+planes                 898/65536       17960/1310720  ( 1.4%) 
+vertexes              3650/65536       43800/786432   ( 5.6%) 
+nodes                 1005/65536       32160/2097152  ( 1.5%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 22/2048          704/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2631/65536      147336/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              768/65536       43008/3670016  ( 1.2%) 
+leaves                1042/65536       33344/2097152  ( 1.6%) 
+leaffaces             3113/65536        6226/131072   ( 4.8%) 
+leafbrushes            594/65536        1188/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15026/512000      60104/2048000  ( 2.9%) 
+edges                 8217/256000      32868/1024000  ( 3.2%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            218/32768        2180/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3147/65536        6294/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     5091964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32152/16777216 ( 0.2%) 
+entdata               [variable]       38805/393216   ( 9.9%) 
+LDR ambient table     1042/65536        4168/262144   ( 1.6%) 
+HDR ambient table     1042/65536        4168/262144   ( 1.6%) 
+LDR leaf ambient      6078/65536      170184/1835008  ( 9.3%) 
+HDR leaf ambient      1042/65536       29176/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4744     ( 0.0%) 
+pakfile               [variable]      106044/0        ( 0.0%) 
+physics               [variable]       79353/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6692
+Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_grass_blend_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 56 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (79353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 264
+Reduced 23 texdatas to 22 (525 bytes to 499)
+Writing C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\jamal\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106392, actual size 106044
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+reading c:\users\jamal\team-fortress-2-map\main map\Main Map.prt
+ 345 portalclusters
+ 915 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 520 visible clusters (0.78%)
+Total clusters visible: 66767
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 325
+visdatasize:32152  compressed from 33120
+writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+2631 faces
+3 degenerate faces
+2171198 square feet [312652608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2628 patches before subdivision
+148238 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17560615, max 848
+transfer lists: 134.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(333287, 358766, 613959)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(92486, 80961, 116820)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(30312, 23743, 31890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10556, 7470, 9257)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4077, 2595, 2978)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1676, 965, 977)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(740, 366, 327)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(354, 154, 113)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(176, 62, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(97, 30, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(53, 13, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(32, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(19, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(12, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0258 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  36/1024         1728/49152    ( 3.5%) 
+brushes                199/8192         2388/98304    ( 2.4%) 
+brushsides            1279/65536       10232/524288   ( 2.0%) 
+planes                 898/65536       17960/1310720  ( 1.4%) 
+vertexes              3650/65536       43800/786432   ( 5.6%) 
+nodes                 1005/65536       32160/2097152  ( 1.5%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                 22/2048          704/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2631/65536      147336/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              768/65536       43008/3670016  ( 1.2%) 
+leaves                1042/65536       33344/2097152  ( 1.6%) 
+leaffaces             3113/65536        6226/131072   ( 4.8%) 
+leafbrushes            594/65536        1188/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15026/512000      60104/2048000  ( 2.9%) 
+edges                 8217/256000      32868/1024000  ( 3.2%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            218/32768        2180/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3147/65536        6294/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     5091964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       32152/16777216 ( 0.2%) 
+entdata               [variable]       38805/393216   ( 9.9%) 
+LDR ambient table     1042/65536        4168/262144   ( 1.6%) 
+HDR ambient table     1042/65536        4168/262144   ( 1.6%) 
+LDR leaf ambient      6082/65536      170296/1835008  ( 9.3%) 
+HDR leaf ambient      1042/65536       29176/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4948     ( 0.0%) 
+pakfile               [variable]      106044/0        ( 0.0%) 
+physics               [variable]       79353/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6692
+Writing c:\users\jamal\team-fortress-2-map\main map\Main Map.bsp
+7 seconds elapsed

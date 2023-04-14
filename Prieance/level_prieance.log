@@ -1052,3 +1052,273 @@ Level flags = 0
 Total triangle count: 1288
 Writing c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.vmf
+Patching WVT material: maps/level_prieance/harvest/ground_to_green_grass_001_wvt_patch
+Patching WVT material: maps/level_prieance/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15747 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 59
+Reduced 10 texdatas to 8 (331 bytes to 264)
+Writing C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 107158, actual size 106676
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+reading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.prt
+ 120 portalclusters
+ 314 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 15 visible clusters (0.13%)
+Total clusters visible: 11451
+Average clusters visible: 95
+Building PAS...
+Average clusters audible: 120
+visdatasize:4544  compressed from 3840
+writing c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+562 faces
+526829 square feet [75863472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+562 patches before subdivision
+32392 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3432547, max 545
+transfer lists:  26.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(383965, 198446, 127595)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40860, 13547, 8391)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5941, 1592, 830)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(813, 216, 107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(130, 33, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 43/8192          516/98304    ( 0.5%) 
+brushsides             262/65536        2096/524288   ( 0.4%) 
+planes                 164/65536        3280/1310720  ( 0.3%) 
+vertexes               740/65536        8880/786432   ( 1.1%) 
+nodes                  273/65536        8736/2097152  ( 0.4%) 
+texinfos                59/12288        4248/884736   ( 0.5%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  562/65536       31472/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              128/65536        7168/3670016  ( 0.2%) 
+leaves                 275/65536        8800/2097152  ( 0.4%) 
+leaffaces              609/65536        1218/131072   ( 0.9%) 
+leafbrushes            181/65536         362/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3054/512000      12216/2048000  ( 0.6%) 
+edges                 1672/256000       6688/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           411/65536         822/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2423152/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4544/16777216 ( 0.0%) 
+entdata               [variable]         637/393216   ( 0.2%) 
+LDR ambient table      275/65536        1100/262144   ( 0.4%) 
+HDR ambient table      275/65536        1100/262144   ( 0.4%) 
+LDR leaf ambient      1743/65536       48804/1835008  ( 2.7%) 
+HDR leaf ambient       275/65536        7700/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106676/0        ( 0.0%) 
+physics               [variable]       15747/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1418
+Writing c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.vmf
+Patching WVT material: maps/level_prieance/harvest/ground_to_green_grass_001_wvt_patch
+Patching WVT material: maps/level_prieance/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15843 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 103 texinfos to 60
+Reduced 10 texdatas to 8 (331 bytes to 264)
+Writing C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\priea\Fork\Team-Fortress-2-Map\Prieance\level_prieance.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 107158, actual size 106676
+0 seconds elapsed
+
+
+
+20 threads
+reading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+reading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.prt
+ 129 portalclusters
+ 346 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 17 visible clusters (0.13%)
+Total clusters visible: 13350
+Average clusters visible: 103
+Building PAS...
+Average clusters audible: 128
+visdatasize:5451  compressed from 6192
+writing c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+581 faces
+527114 square feet [75904432.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+581 patches before subdivision
+32623 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3456202, max 544
+transfer lists:  26.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(384327, 198728, 127914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40926, 13583, 8415)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5945, 1594, 831)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(814, 216, 107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(131, 33, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 43/8192          516/98304    ( 0.5%) 
+brushsides             262/65536        2096/524288   ( 0.4%) 
+planes                 168/65536        3360/1310720  ( 0.3%) 
+vertexes               779/65536        9348/786432   ( 1.2%) 
+nodes                  289/65536        9248/2097152  ( 0.4%) 
+texinfos                60/12288        4320/884736   ( 0.5%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  581/65536       32536/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              129/65536        7224/3670016  ( 0.2%) 
+leaves                 291/65536        9312/2097152  ( 0.4%) 
+leaffaces              645/65536        1290/131072   ( 1.0%) 
+leafbrushes            189/65536         378/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3152/512000      12608/2048000  ( 0.6%) 
+edges                 1721/256000       6884/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           411/65536         822/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2429592/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        5451/16777216 ( 0.0%) 
+entdata               [variable]         637/393216   ( 0.2%) 
+LDR ambient table      291/65536        1164/262144   ( 0.4%) 
+HDR ambient table      291/65536        1164/262144   ( 0.4%) 
+LDR leaf ambient      1872/65536       52416/1835008  ( 2.9%) 
+HDR leaf ambient       291/65536        8148/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      106676/0        ( 0.0%) 
+physics               [variable]       15843/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1474
+Writing c:\users\priea\fork\team-fortress-2-map\prieance\level_prieance.bsp
+1 second elapsed
