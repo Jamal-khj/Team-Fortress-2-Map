@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9540"
-	"mapversion" "221"
+	"mapversion" "222"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "221"
+	"mapversion" "222"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -32664,7 +32664,7 @@ entity
 	"hud_type" "0"
 	"ropes_holiday_lights_allowed" "1"
 	"targetname" "gamerules"
-	"origin" "2416 48 73"
+	"origin" "2432 160 105"
 	editor
 	{
 		"color" "220 30 220"
@@ -32687,7 +32687,7 @@ entity
 	"switch_teams" "1"
 	"team_base_icon_2" "sprites/obj_icons/icon_base_red"
 	"team_base_icon_3" "sprites/obj_icons/icon_base_blu"
-	"origin" "2416 72 73"
+	"origin" "2432 184 105"
 	editor
 	{
 		"color" "220 30 220"
@@ -32720,7 +32720,7 @@ entity
 	"train" "tracktrain"
 	"train_can_recede" "1"
 	"train_recede_time" "0"
-	"origin" "2416 96 73"
+	"origin" "2432 208 105"
 	editor
 	{
 		"color" "220 30 220"
@@ -32736,7 +32736,7 @@ entity
 	"auto_countdown" "1"
 	"max_length" "600"
 	"reset_time" "0"
-	"setup_length" "10"
+	"setup_length" "60"
 	"show_in_hud" "1"
 	"show_time_remaining" "1"
 	"start_paused" "0"
@@ -32751,7 +32751,7 @@ entity
 		"OnSetupFinished" "blu_door_middle_s_triggerEnable0-1"
 		"OnSetupFinished" "blu_door_southOpen01"
 	}
-	"origin" "2416 120 73"
+	"origin" "2432 232 105"
 	editor
 	{
 		"color" "220 30 220"
@@ -32768,7 +32768,7 @@ entity
 	"switch_teams" "1"
 	"targetname" "time_end"
 	"TeamNum" "2"
-	"origin" "2416 120 96"
+	"origin" "2432 232 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -32784,7 +32784,7 @@ entity
 	"filterclass" "player"
 	"Negated" "1"
 	"targetname" "player_filter_class"
-	"origin" "2416 96 96"
+	"origin" "2432 208 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -32815,7 +32815,7 @@ entity
 	"spinup" "0"
 	"targetname" "capturebell"
 	"volstart" "0"
-	"origin" "2416 72 96"
+	"origin" "2432 184 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -32838,7 +32838,7 @@ entity
 		"OnMapSpawn" "gamerulesSetBlueTeamRespawnWaveTime30-1"
 		"OnMapSpawn" "gamerulesSetRedTeamRespawnWaveTime90-1"
 	}
-	"origin" "2416 48 96"
+	"origin" "2432 160 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -32854,7 +32854,7 @@ entity
 	"filtername" "cart"
 	"Negated" "0"
 	"targetname" "filter_cart"
-	"origin" "2416 144 73"
+	"origin" "2432 256 105"
 	editor
 	{
 		"color" "220 30 220"
