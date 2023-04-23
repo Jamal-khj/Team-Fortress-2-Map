@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9540"
-	"mapversion" "201"
+	"mapversion" "202"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "201"
+	"mapversion" "202"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -36998,7 +36998,7 @@ entity
 	"model" "models/props_trainyard/metal_watertower001.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "3424 1568 64"
+	"origin" "2208 -1248 64"
 	editor
 	{
 		"color" "255 255 0"
