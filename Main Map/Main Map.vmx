@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9540"
-	"mapversion" "361"
+	"mapversion" "362"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "361"
+	"mapversion" "362"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -42408,28 +42408,6 @@ entity
 }
 entity
 {
-	"id" "79471"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_2fort/tracks001.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1696 3712 72.7649"
-	editor
-	{
-		"color" "177 246 0"
-		"groupid" "79511"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
 	"id" "79864"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -42584,28 +42562,6 @@ entity
 }
 entity
 {
-	"id" "79892"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_2fort/tracks001.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-2016 3712 72.7649"
-	editor
-	{
-		"color" "177 246 0"
-		"groupid" "79863"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
 	"id" "79906"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -42749,28 +42705,6 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"origin" "-1376 3618.19 72.7649"
-	editor
-	{
-		"color" "177 246 0"
-		"groupid" "79905"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
-	"id" "79934"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_2fort/tracks001.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1376 3712 72.7649"
 	editor
 	{
 		"color" "177 246 0"
