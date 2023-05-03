@@ -14412,3 +14412,198 @@ Level flags = 0
 Total triangle count: 16050
 Writing d:\fork\team-fortress-2-map\main map\Main Map.bsp
 17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\fork\Team-Fortress-2-Map\Main Map\Main Map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/main map/egypt/sand_floor_blend_04_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1842.85 1856.00 -416.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3456.0 -4.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3456.0 1608.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 3968.0 800.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 3584.0 800.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 800.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 2560.0 -4.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 2560.0 1608.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 2560.0 800.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 36 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (220128 bytes)
+Error! To use model "models/props_gameplay/resupply_locker.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_gameplay/resupply_locker.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1148 texinfos to 900
+Reduced 52 texdatas to 51 (1240 bytes to 1214)
+Writing D:\fork\Team-Fortress-2-Map\Main Map\Main Map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\fork\Team-Fortress-2-Map\Main Map\Main Map.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106409, actual size 106061
+7 seconds elapsed
+
+
+
+12 threads
+reading d:\fork\team-fortress-2-map\main map\Main Map.bsp
+reading d:\fork\team-fortress-2-map\main map\Main Map.prt
+LoadPortals: couldn't read d:\fork\team-fortress-2-map\main map\Main Map.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\fork\team-fortress-2-map\main map\Main Map.bsp
+No vis information, direct lighting only.
+6126 faces
+1 degenerate faces
+2639393 square feet [380072640.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0298 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  32/1024         1536/49152    ( 3.1%) 
+brushes                587/8192         7044/98304    ( 7.2%) 
+brushsides            3693/65536       29544/524288   ( 5.6%) 
+planes                2150/65536       43000/1310720  ( 3.3%) 
+vertexes              9085/65536      109020/786432   (13.9%) 
+nodes                 3070/65536       98240/2097152  ( 4.7%) 
+texinfos               900/12288       64800/884736   ( 7.3%) 
+texdata                 51/2048         1632/65536    ( 2.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6126/65536      343056/3670016  ( 9.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2345/65536      131320/3670016  ( 3.6%) 
+leaves                3103/65536       99296/2097152  ( 4.7%) 
+leaffaces             7130/65536       14260/131072   (10.9%) 
+leafbrushes           1781/65536        3562/131072   ( 2.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            38346/512000     153384/2048000  ( 7.5%) 
+edges                21282/256000      85128/1024000  ( 8.3%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            551/32768        5510/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8472/65536       16944/131072   (12.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     5789272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       68460/393216   (17.4%) 
+LDR ambient table     3103/65536       12412/262144   ( 4.7%) 
+HDR ambient table     3103/65536       12412/262144   ( 4.7%) 
+LDR leaf ambient     16860/65536      472080/1835008  (25.7%) 
+HDR leaf ambient      3103/65536       86884/1835008  ( 4.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/42004    ( 0.0%) 
+pakfile               [variable]      106061/0        ( 0.0%) 
+physics               [variable]      220128/4194304  ( 5.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16714
+Writing d:\fork\team-fortress-2-map\main map\Main Map.bsp
+18 seconds elapsed
